@@ -142,7 +142,7 @@
 - 목적 : `hypercloud.config 파일에 설치를 위한 정보 기입`
 - 순서: 
 
-	- 
+	- install-hypercloud-5.0폴더 다운
 	```bash
 	cd ~/hypercloud-install
 
