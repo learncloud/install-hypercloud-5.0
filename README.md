@@ -218,7 +218,7 @@
 
 ## Step 1. installer 실행
 - 목적 : `설치를 위한 shell script 실행`
-- `비고` : __kafka가 외부 클러스터에 있다면__ shell script 실행 전 해당 클러스터에서 ca 인증서와 키를 발급 받은 뒤, hypercloud-api-server를 설치하는 클러스터에 hypercloud-kafka-secret을 생성해야 한다.
+- `비고/ 현재는 생략함` : __kafka가 외부 클러스터에 있다면__ shell script 실행 전 해당 클러스터에서 ca 인증서와 키를 발급 받은 뒤, hypercloud-api-server를 설치하는 클러스터에 hypercloud-kafka-secret을 생성해야 한다.
 	1. kafka가 실행되고 있는 클러스터에서 아래 형식을 통해 인증서 발급 받음.  
 		```yaml
 		apiVersion: cert-manager.io/v1
